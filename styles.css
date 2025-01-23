@@ -13,7 +13,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('achtergrond.png') no-repeat center center fixed;
+    background: url('Images/achtergrond.png') no-repeat center center fixed;
     background-size: cover;
     background-position: top;
     color: #333;
@@ -53,6 +53,18 @@ body {
     display: block;
     margin-left: 65px;
 }
+
+.titel-locatie {
+  width: 250px; /* Stel de breedte in */
+    display: block;
+    margin-left: 55px;
+}
+.titel-duurzaam {
+  width: 250px; /* Stel de breedte in */
+    display: block;
+    margin-left: 55px;
+}
+
 
 .hamburger-menu {
     height: 41px;
@@ -109,7 +121,7 @@ p {
     display: block;
     width: 150px;
     height: 40px;
-    background: url('button.png') no-repeat center;
+    background: url('Images/button.png') no-repeat center;
     background-size: contain;
     border: none;
     cursor: pointer;
@@ -142,4 +154,11 @@ margin: 20px;
 margin-left: 40px;
 }
 
+.background-home {
+
+    width: 375px;
+    height; 100%;
+    
+    
+}
 
