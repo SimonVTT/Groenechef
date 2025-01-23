@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: url('achtergrond-visie.png') no-repeat center center fixed;
+    background: url('achtergrond.png') no-repeat center center fixed;
     background-size: cover;
     background-position: top;
     color: #333;
@@ -17,9 +17,6 @@ body {
     padding: 20px;
 }
 
-.header img {
-    height: 50px;
-}
 
 .content {
     display: flex;
@@ -34,25 +31,48 @@ body {
     border-radius: 28px;
     padding: 20px;
     width: 277px;
+    height: 1230px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 0;
+    margin: 20px;
+    margin-bottom: 80px;
+}
+
+.titel-visie {
+  width: 250px; /* Stel de breedte in */
+    display: block;
+    margin-left: 65px;
 }
 
 .hamburger-menu {
     height: 41px;
-    display: block; /* Zorgt ervoor dat deze eenvoudig geplaatst kan worden */
+    display: block;
+    /* Zorgt ervoor dat deze eenvoudig geplaatst kan worden */
+    margin: 20px;
+    float: right;
+
 }
 
+.logo {
+    width: 60px;
+    margin: 20px;
+
+}
+
+
 .green-box h2 {
-    font-size: 18pt; /* Changed to 18pt */
-    font-family: "Front Page News", sans-serif; /* Changed to "Front Page News" */
+    font-size: 18pt;
+    /* Changed to 18pt */
+    font-family: "Front Page News", sans-serif;
+    /* Changed to "Front Page News" */
     color: white;
     margin: 0 0 20px;
 }
 
 .text-block {
     margin-bottom: 20px;
-    font-size: 16pt; /* Changed to 16pt */
+    font-size: 16pt;
+    /* Changed to 16pt */
     font-family: "HealthyFreak", sans-serif;
     color: white;
 }
@@ -82,4 +102,25 @@ p {
     background-size: contain;
     border: none;
     cursor: pointer;
+}
+
+
+.image-button {
+    background: none;
+    /* Verwijder de standaard knop-achtergrond */
+    border: none;
+    /* Verwijder de standaard knop-border */
+    padding: 0;
+    /* Verwijder de standaard knop-padding */
+    cursor: pointer;
+    /* Verander de cursor naar een handje bij hover */
+}
+
+.image-button img {
+    align-items: center;
+    width: 144px;
+    /* Maak de afbeelding net zo breed als de knop */
+    height: 38px;
+    /* Behoud de aspect ratio van de afbeelding */
+    margin-left: 60px;
 }
