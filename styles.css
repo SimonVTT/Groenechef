@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('achtergrond-visie.png') no-repeat center center fixed;
+    background-size: cover;
+    background-position: top;
+    color: #333;
+    max-width: 375px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header img {
+    height: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.green-box {
+    background-color: #C1D366;
+    border: 6px solid #ffffff;
+    border-radius: 28px;
+    padding: 20px;
+    width: 277px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 0;
+}
+
+.hamburger-menu {
+    height: 41px;
+    display: block; /* Zorgt ervoor dat deze eenvoudig geplaatst kan worden */
+}
+
+.green-box h2 {
+    font-size: 18pt; /* Changed to 18pt */
+    font-family: "Front Page News", sans-serif; /* Changed to "Front Page News" */
+    color: white;
+    margin: 0 0 20px;
+}
+
+.text-block {
+    margin-bottom: 20px;
+    font-size: 16pt; /* Changed to 16pt */
+    font-family: "HealthyFreak", sans-serif;
+    color: white;
+}
+
+.green-box img {
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+p {
+    margin: 0px;
+    font-size: 14pt;
+    font-family: "FrontPageNews", sans-serif;
+    color: white;
+    margin-top: -12px;
+}
+
+
+.button {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: 40px;
+    background: url('button.png') no-repeat center;
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+}
