@@ -1,3 +1,30 @@
+@font-face {
+    font-family: "FrontPageNews";
+    src: url("fonts/FPN.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "HealthyFreak";
+    src: url("fonts/HealthyFreaks.off") format("truetype");
+}
+
+@font-face {
+    font-family: "FrontPageNews";
+    src: url("fonts/FPN.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "HealthyFreak";
+    src: url("fonts/HealthyFreak.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "HealthyFreakRough";
+    src: " url("fonts/HealthyFreak Rough.otf") format("opentype");
+
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -124,3 +151,5 @@ p {
     /* Behoud de aspect ratio van de afbeelding */
     margin-left: 60px;
 }
+
+
