@@ -106,7 +106,6 @@ p {
 
 .button {
     display: block;
-    margin: 20px auto 0;
     width: 150px;
     height: 40px;
     background: url('button.png') no-repeat center;
