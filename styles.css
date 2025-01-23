@@ -42,11 +42,11 @@ body {
     border-radius: 28px;
     padding: 20px;
     width: 277px;
-    height: 1380px;
+    height: 1200px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-top: 0;
     margin: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .titel-visie {
@@ -133,6 +133,12 @@ p {
     height: 38px;
     /* Behoud de aspect ratio van de afbeelding */
     margin-left: 60px;
+}
+
+.knop-onder1 {
+    
+margin: 20px;
+margin-left: 40px;
 }
 
 
