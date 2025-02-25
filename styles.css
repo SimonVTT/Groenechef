@@ -1,11 +1,11 @@
 @font-face {
     font-family: "FrontPageNews";
-    src: url("fonts/FPN.otf") format("opentype"); /* Of "truetype" als dat het juiste type is */
+    src: url("fonts/FPN.otf") format("opentype");
 }
 
 @font-face {
     font-family: "HealthyFreak";
-    src: url("fonts/HealthyFreak.otf") format("opentype"); /* Of "truetype" als dat het juiste type is */
+    src: url("fonts/HealthyFreak.otf") format("opentype");
 }
 
 
@@ -20,6 +20,21 @@ body {
     max-width: 375px;
     margin: 0 auto;
 }
+
+#groene-chef {
+    background-image: url('Images/achtergrond2.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#groene-home {
+    background-image: url('Images/achtergrond-home.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
 
 .header {
     display: flex;
@@ -36,40 +51,75 @@ body {
     margin-top: 20px;
 }
 
+
 .green-box {
     background-color: #C1D366;
     border: 6px solid #ffffff;
     border-radius: 28px;
+    padding: 60px 30px 20px;
+    width: 277px;
+    height: auto;
+    margin-top: 0px;
+    margin: 80px auto 20px;
+    margin-bottom: 40px;
+
+}
+
+.white-box {
+    background-color: #ffffff;
+    border-radius: 28px;
     padding: 20px;
     width: 277px;
-    height: 1200px;
+    height: 197px;
     margin-top: 0;
-    margin: 20px;
+    margin: auto;
     margin-bottom: 20px;
 }
 
 .titel-visie {
-  width: 250px; /* Stel de breedte in */
+    width: 250px;
+    /* Stel de breedte in */
     display: block;
     margin-left: 65px;
+    top: 55px;
+    position: absolute;
+    margin-top: 55px;
 }
 
 .titel-locatie {
-  width: 250px; /* Stel de breedte in */
+    width: 277px;
+    /* Stel de breedte in */
     display: block;
-    margin-left: 55px;
+    margin-left: 45px;
+    top: 55px;
+    position: absolute;
+    margin-top: 55px;
 }
+
+.titel-navigatie {
+    width: 220px;
+    /* Stel de breedte in */
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+
+}
+
 .titel-duurzaam {
-  width: 250px; /* Stel de breedte in */
+    width: 250px;
+    /* Stel de breedte in */
     display: block;
     margin-left: 55px;
+    top: 0px;
+    position: absolute;
+    margin-top: 80px;
 }
 
 
 .hamburger-menu {
     height: 41px;
     display: block;
-    /* Zorgt ervoor dat deze eenvoudig geplaatst kan worden */
     margin: 20px;
     float: right;
 
@@ -82,19 +132,24 @@ body {
 }
 
 
-.green-box h2 {
+.green-box h1 {
     font-size: 18pt;
-    /* Changed to 18pt */
     font-family: "HealthyFreak", sans-serif;
-    /* Changed to "Front Page News" */
     color: white;
     margin: 0 0 20px;
+}
+
+.white-box h1 {
+    font-size: 16pt;
+    font-family: "FrontPageNews", sans-serif;
+    color: #2B3F2B;
+    margin: 0 0 20px;
+
 }
 
 .text-block {
     margin-bottom: 20px;
     font-size: 16pt;
-    /* Changed to 16pt */
     font-family: "HealthyFreak", sans-serif;
     color: white;
 }
@@ -112,10 +167,18 @@ p {
     font-family: "FrontPageNews", sans-serif;
     color: white;
     margin-top: -12px;
-        margin: 0 0 20px;
+    margin: 0 0 20px;
 
 }
 
+.btn {
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 18px;
+
+}
 
 .button {
     display: block;
@@ -130,35 +193,40 @@ p {
 
 .image-button {
     background: none;
-    /* Verwijder de standaard knop-achtergrond */
     border: none;
-    /* Verwijder de standaard knop-border */
     padding: 0;
-    /* Verwijder de standaard knop-padding */
     cursor: pointer;
-    /* Verander de cursor naar een handje bij hover */
 }
 
 .image-button img {
     align-items: center;
     width: 144px;
-    /* Maak de afbeelding net zo breed als de knop */
     height: 38px;
-    /* Behoud de aspect ratio van de afbeelding */
     margin-left: 60px;
 }
 
 .knop-onder1 {
-    
-margin: 20px;
-margin-left: 40px;
+
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.knop-onder2 {
+
+    display: block;
+    width: 50%;
+    margin: 570px auto;
+    margin-bottom: 20px;
+    top: 100px;
 }
 
 .background-home {
 
     width: 375px;
-    height; 100%;
-    
-    
-}
+    height;
+    100%;
 
+
+}
